@@ -4,6 +4,9 @@ nocite: '@*'
 ...
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4ee04d4ded56412c9b01988a08d6a498)](https://app.codacy.com/app/effepivi/MicroTomoRegistration?utm_source=github.com&utm_medium=referral&utm_content=effepivi/MicroTomoRegistration&utm_campaign=Badge_Grade_Dashboard)
+
+
 # Registration of Polygon Meshes onto X-ray Projections: Application to 3D Micro-Tomography by Synchrotron Radiation
 
 In this project we propose to solve the registration of 3D triangular models onto 2D X-ray projections [@Wen2019CGVC].
