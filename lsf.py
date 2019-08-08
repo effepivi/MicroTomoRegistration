@@ -3,10 +3,10 @@ import numpy as np
 
 
 def lsf(x):
-    a2              = 601.873;
+    #a2              = 601.873;
     b2              = 54.9359;
     c2              = -3.58452;
-    d2              = 0.469614;
+    #d2              = 0.469614;
     e2              = 6.32561e+09;
     f2              = 1.0;
     
@@ -27,7 +27,7 @@ def lsf(x):
             temp_3 = math.pow(2.0/f2+math.pi/c2, -1);
             value[i] = (temp_1 + temp_2) * temp_3;     
         
-    print(value)
+    #print(value)
     
     return value
 
