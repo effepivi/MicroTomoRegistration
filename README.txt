@@ -11,7 +11,6 @@ nocite: '@*'
 
 
 ## Project Description
-======================
 
 In this project we propose to solve the registration of 3D triangular models onto 2D X-ray projections [@Wen2019CGVC].
 Our approach relies extensively on global optimisation methods and fast X-ray simulation on GPU (see Figure [1](#fig:overview)).
@@ -35,7 +34,6 @@ To evaluate our pipeline, each optimisation is repeated 15 times to gather stati
 
 
 ## YouTube Videos
-=================
 
 A YouTube video of the presentation given at IBFEM-4i (Sept
 2018) is available below [@Vidal2018IBFEM-4i].
@@ -45,4 +43,3 @@ A YouTube video of the presentation given at IBFEM-4i (Sept
 
 
 ## References
-=============

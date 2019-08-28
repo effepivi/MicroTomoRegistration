@@ -1,11 +1,11 @@
+[![Codacy
+Badge](https://api.codacy.com/project/badge/Grade/4ee04d4ded56412c9b01988a08d6a498)](https://app.codacy.com/app/effepivi/MicroTomoRegistration?utm_source=github.com&utm_medium=referral&utm_content=effepivi/MicroTomoRegistration&utm_campaign=Badge_Grade_Dashboard)
+
 Registration of Polygon Meshes onto X-ray Projections: Application to 3D Micro-Tomography by Synchrotron Radiation
 ==================================================================================================================
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4ee04d4ded56412c9b01988a08d6a498)](https://app.codacy.com/app/effepivi/MicroTomoRegistration?utm_source=github.com&utm_medium=referral&utm_content=effepivi/MicroTomoRegistration&utm_campaign=Badge_Grade_Dashboard)
-
-
-## Project Description
-======================
+Project Description
+-------------------
 
 In this project we propose to solve the registration of 3D triangular
 models onto 2D X-ray projections (Wen et al. 2019). Our approach relies
@@ -44,19 +44,17 @@ gather statistically meaningful results, in particular to assess the
 reproducibility of the outputs. Our registration framework is successful
 for this both test-cases when using a suitable optimisation algorithm.
 
+YouTube Videos
+--------------
 
-## YouTube Videos
-=================
-
-A YouTube video of the presentation given at IBFEM-4i (Sept
-2018) is available below (Vidal 2018).
+A YouTube video of the presentation given at IBFEM-4i (Sept 2018) is
+available below (Vidal 2018).
 
 [![YouTube video of presentation given at IBFEM-4i (Sept
 2018)](http://img.youtube.com/vi/Jo1RMb2hKPE/0.jpg)](http://www.youtube.com/watch?v=Jo1RMb2hKPE)
 
-
-## References
-=============
+References
+----------
 
 Vidal, Franck P. 2018. “gVirtualXRay – Fast X-ray Simulation on GPU.” In
 *Workshop on Image-Based Finite Element Method for Industry 2018
