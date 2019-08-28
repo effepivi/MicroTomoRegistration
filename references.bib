@@ -1,68 +1,61 @@
 @inproceedings{Vidal2018IBFEM-4i,
-  author = {\textbf{F. P. Vidal}},
-  title = {{gVirtualXRay} -- {Fast} {X-ray} Simulation on {GPU}},
-  booktitle = {Workshop on Image-Based Finite Element Method for Industry 2018 (IBFEM-4i 2018)},
-  year = 2018,
-  month = Sep,
-  address = {Swansea, UK},
-  annotation = {Sept~3--6, 2018},
-  note = {Invited talk},
-  pdf = {pdf/Vidal2018IBFEM-4i.pdf},
-  DOI = {10.5281/zenodo.1452506},
+	Address = {Swansea, UK},
+	Annotation = {Sept~3--6, 2018},
+	Author = {Franck P. Vidal},
+	Booktitle = {Workshop on Image-Based Finite Element Method for Industry 2018 (IBFEM-4i 2018)},
+	Doi = {10.5281/zenodo.1452506},
+	Month = Sep,
+	Note = {Invited talk},
+	Title = {{gVirtualXRay} -- {Fast} {X-ray} Simulation on {GPU}},
+	Year = 2018,
 }
 
-
-@inproceedings {Wen2019CGVC,
- booktitle = {Computer Graphics and Visual Computing (CGVC)},
- editor = {G. K. L. Tam and J. C. Roberts},
- title = {Registration of {3D} triangular models to {2D} {X-ray} projections using black-box optimisation and {X-ray} simulation},
- author = {T. Wen and R. P. Mihail and S. Al-Maliki and {J.-M.} L\'etang and \textbf{F. P. Vidal}},
- year = {2019},
- publisher = {The Eurographics Association},
- ABSTRACT = {Registration has been studied extensively for the past few decades. In this paper we propose a novel idea to solve the registration of 3D triangular models onto 2D projections.
+@inproceedings{Wen2019CGVC,
+	Abstract = {Registration has been studied extensively for the past few decades. In this paper we propose a novel idea to solve the registration of 3D triangular models onto 2D projections.
 Our approach relies extensively on global optimisation methods and fast X-ray simulation on GPU. We demonstrate the validity of our approach on two registration problems:
 i) 3D kinematic configuration of a 3D hand model, i.e. the recovery of the original hand pose from a postero-anterior (PA) view radiograph. The performance is measured by Mean Absolute Error (MAE).
 ii) Automatic estimation of the position and rigid transformation of geometric shapes (cube and cylinders) to match an actual metallic sample made of Ti/SiC fibre composite with tungsten (W) cores. In this case the performance is measured in term of F-score (86\%), accuracy (95\%), precision (75\%), sensitivity (100\%), and true negative rate (94\%).
 
 To evaluate our pipeline, each optimisation is repeated 15 times to gather statistically meaningful results, in particular to assess the reproducibility of the outputs.
 Our registration framework is successful for both test-cases when using a suitable optimisation algorithm.},
-   note = {To appear},
+	Author = {T. Wen and R. P. Mihail and S. Al-Maliki and {J.-M.} L\'etang and Franck P. Vidal},
+	Booktitle = {Computer Graphics and Visual Computing (CGVC)},
+	Editor = {G. K. L. Tam and J. C. Roberts},
+	Note = {To appear},
+	Publisher = {The Eurographics Association},
+	Title = {Registration of {3D} triangular models to {2D} {X-ray} projections using black-box optimisation and {X-ray} simulation},
+	Year = {2019}
 }
 
 @article{Vidal2016ComputMedImagingGraph,
-  author = "\textbf{F. P. Vidal} and Pierre-Fr\'ed\'eric Villard",
-  title = "Development and validation of real-time simulation of X-ray imaging 
-    with respiratory motion",
-  journal = "Computerized Medical Imaging and Graphics",
-  year = 2016,
-  volume = 49,
-  pages = "1-15",
-  month = apr,
-  abstract = "We present a framework that combines evolutionary 
-    optimisation, soft tissue modelling and ray tracing on GPU to 
-    simultaneously compute the respiratory motion and X-ray imaging in 
-    real-time. Our aim is to provide validated building blocks with high 
-    fidelity to closely match both the human physiology and the physics of 
-    X-rays. A CPU-based set of algorithms is presented to model organ 
+	Abstract = {We present a framework that combines evolutionary
+    optimisation, soft tissue modelling and ray tracing on GPU to
+    simultaneously compute the respiratory motion and X-ray imaging in
+    real-time. Our aim is to provide validated building blocks with high
+    fidelity to closely match both the human physiology and the physics of
+    X-rays. A CPU-based set of algorithms is presented to model organ
     behaviours during respiration. Soft tissue deformation is computed with an
-    extension of the Chain Mail method. Rigid elements move according to 
-    kinematic laws. A GPU-based surface rendering method is proposed to 
-    compute the X-ray image using the Beer–Lambert law. It is provided as an 
-    open-source library. A quantitative validation study is provided to 
-    objectively assess the accuracy of both components: (i) the respiration 
-    against anatomical data, and (ii) the X-ray against the Beer–Lambert law and 
-    the results of Monte Carlo simulations. Our implementation can be used in 
-    various applications, such as interactive medical virtual environment to 
+    extension of the Chain Mail method. Rigid elements move according to
+    kinematic laws. A GPU-based surface rendering method is proposed to
+    compute the X-ray image using the Beer--Lambert law. It is provided as an
+    open-source library. A quantitative validation study is provided to
+    objectively assess the accuracy of both components: (i) the respiration
+    against anatomical data, and (ii) the X-ray against the Beer--Lambert law and
+    the results of Monte Carlo simulations. Our implementation can be used in
+    various applications, such as interactive medical virtual environment to
     train percutaneous transhepatic cholangiography in interventional radiology,
-     2D/3D registration, computation of digitally reconstructed radiograph, 
-     simulation of 4D sinograms to test tomography reconstruction tools.",
-  doi = "10.1016/j.compmedimag.2015.12.002",
-  pmid = {26773644},
-  issn = "0895-6111",
-  keywords = "X-ray simulation, Deterministic simulation (ray-tracing), 
-    Digitally reconstructed radiograph, Respiration simulation, 
-    Medical virtual environment, Imaging guidance, 
-    Interventional radiology training",
-  publisher = {Elsevier},
-  pdf = {pdf/Vidal2016ComputMedImagingGraph.pdf},
+     2D/3D registration, computation of digitally reconstructed radiograph,
+     simulation of 4D sinograms to test tomography reconstruction tools.},
+	Author = {Franck P. Vidal and Pierre-Fr\'ed\'eric Villard},
+	Doi = {10.1016/j.compmedimag.2015.12.002},
+	Issn = {0895-6111},
+	Journal = {Computerized Medical Imaging and Graphics},
+	Keywords = {X-ray simulation, Deterministic simulation (ray-tracing), Digitally reconstructed radiograph, Respiration simulation, Medical virtual environment, Imaging guidance, Interventional radiology training},
+	Month = apr,
+	Pages = {1-15},
+	Pmid = {26773644},
+	Publisher = {Elsevier},
+	Title = {Development and validation of real-time simulation of {X-ray} imaging with respiratory motion},
+	Volume = 49,
+	Year = 2016,
 }
